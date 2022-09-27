@@ -1,0 +1,83 @@
+.our-edge {
+  background: url("https://cosmicguild.io/wp-content/uploads/2021/12/BG-4.png") center center no-repeat;
+  background-size: cover;
+  padding: 180px 0 200px 0;
+
+  &-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &-title {
+      color: #003264;
+      font-family: "Montserrat", sans-serif;
+      font-size: 80px;
+      font-weight: 800;
+    }
+
+    &-content {
+      max-width: 800px;
+      margin: 0 auto;
+
+      &-text {
+        color: #003264;
+        font-family: "Montserrat", sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .our-edge {
+    padding: 55px 40px 60px 40px;
+
+    &-container {
+      max-width: 1140px;
+
+      &-title {
+
+        font-size: 52px;
+        margin-bottom: 20px;
+      }
+
+      &-content {
+        max-width: 800px;
+        padding: 10px;
+        &-text {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .future-game-banner {
+    padding: 40px 5px 40px 5px;
+
+
+    &-container {
+      max-width: 767px;
+
+      &-title {
+
+        font-size: 38px;
+        margin-bottom: 20px;
+      }
+
+      &-content {
+        max-width: 800px;
+
+        &-text {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.privacy-header-container {
+  background: url("https://cosmicguild.io/wp-content/uploads/2021/12/SPACEEE.png");
+  padding: 60px 0 60px 0;
+
+  &-title {
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 47px;
+    font-weight: 800;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.privacy-content {
+  padding: 50px 0 80px 0;
+
+  &-container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+    &-content {
+      max-width: 1010px;
+      margin: 0 auto;
+      min-height: 942px;
+      &-title{
+        color: #000000;
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      &-sub-title{
+        color: #2D2D2D;
+        font-family: "Montserrat", sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      &-text{
+        color: #2D2D2D;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .privacy-content-container-content{
+    padding: 0 40px;
+  }
+}
+@media (max-width: 767px) {
+  .privacy-header-container{
+    padding: 60px 0 60px 0;
+    &-title{
+
+      font-size: 34px;
+
+    }
+  }
+  .privacy-content{
+    &-container{
+      max-width: 767px;
+      &-content{
+        max-width: 767px;
+        padding: 0 30px;
+        &-title{
+          font-size: 21px;
+        }
+        &-sub-title{
+          font-size: 16px;
+        }
+        &-text{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

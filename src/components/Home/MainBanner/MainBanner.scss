@@ -1,0 +1,110 @@
+.main-banner {
+  display: flex;
+  background: url("https://cosmicguild.io/wp-content/uploads/2021/12/SPACEEE.png") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 50px;
+
+  &-left-side {
+    width: 42.264%;
+    max-height: 810px;
+
+    &-img {
+      height: 810px;
+      object-fit: fill;
+      max-width: 100%;
+      aspect-ratio: auto 970 / 970;
+    }
+  }
+
+  &-right-side {
+    width: 57.736%;
+    padding-right: 120px;
+    margin: -10px 0px 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &-container {
+      margin-bottom: 20px;
+
+      &-img {
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+
+      }
+    }
+
+    &-link {
+      margin-top: 20px;
+      background: white;
+      width: 336px;
+      height: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 65px;
+      color: #003164;
+      text-decoration: none;
+      font-size: 28px;
+      font-weight: bolder;
+    }
+
+    &-text {
+      max-width: 587px;
+      color: #FFFFFF;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      text-align: center;
+      line-height: 1;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-banner {
+    flex-direction: column-reverse;
+    padding: 50px 40px 0 40px;
+
+    &-left-side {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &-img{
+        width: 80%;
+        height: 500px;
+
+      }
+    }
+
+    &-right-side {
+      width: 100%;
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .main-banner {
+     padding: 40px 30px 0 30px;
+
+    &-left-side {
+
+      &-img{
+        width: 100%;
+        height: 270px;
+
+      }
+    }
+    & .adaptive{
+      width: 80%;
+      font-size: 23px;
+    }
+  }
+}
